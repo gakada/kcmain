@@ -1,6 +1,6 @@
 {
   "name": "@kancolle/main",
-  "version": "1.0.15",
+  "version": "0.210508.0",
   "description": "Using KanColle's main.js in Node.js",
   "keywords": [
     "kancolle"
@@ -24,23 +24,23 @@
     "up": "yarn upgrade --latest"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "canvas": "^2.6.1",
+    "axios": "^0.21.1",
+    "canvas": "^2.7.0",
     "createjs": "^1.0.1",
-    "jsdom": "^16.2.0",
+    "jsdom": "^16.5.3",
     "jsdom-global": "^3.0.2",
-    "pixi.js": "^5.2.1"
+    "pixi.js": "^6.0.4"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "fs-extra": "^8.1.0",
-    "js-beautify": "^1.10.3",
-    "prettier": "^1.19.1",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "fs-extra": "^10.0.0",
+    "js-beautify": "^1.13.13",
+    "prettier": "^2.3.0",
     "rimraf": "^3.0.2",
-    "tape": "^4.13.2"
+    "tape": "^5.2.2"
   },
   "eslintConfig": {
     "env": {
@@ -55,6 +55,7 @@
     "parser": "babel-eslint"
   },
   "prettier": {
+    "arrowParens": "avoid",
     "printWidth": 150,
     "semi": false,
     "singleQuote": true,
